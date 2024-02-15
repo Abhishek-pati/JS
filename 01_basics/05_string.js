@@ -12,3 +12,4 @@ console.log(stringOne.slice(-10,2));
 
 const stringTwo = "    BMW    "
 console.log(stringTwo.trim());
+console.log(stringTwo.toLowerCase());
