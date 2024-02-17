@@ -9,8 +9,8 @@ const otherNumber = 21.99
 console.log(otherNumber.toPrecision(2));
 
 const anotherNumber = 1000000
-console.log(anotherNumber.toLocaleString());
-console.log(anotherNumber.toLocaleString('en-IN'));
+console.log(anotherNumber.toLocaleString());// US type
+console.log(anotherNumber.toLocaleString('en-IN'));// INDIA type
 
 //*************************** Maths ****************************
 
