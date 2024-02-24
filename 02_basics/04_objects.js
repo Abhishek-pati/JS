@@ -45,4 +45,32 @@ array[1].email
 // console.log(Object.keys(bgmiUser));
 // console.log(Object.values(bgmiUser));
 // console.log(Object.entries(bgmiUser));
-console.log(bgmiUser.hasOwnProperty('name'));
+// console.log(bgmiUser.hasOwnProperty('name'));
+
+
+// Object de-structure
+
+const course ={
+    coursenmae: "Java Script",
+    price : "2000/-",
+    Instructor : "Shivam"
+}
+
+const {Instructor} = course
+console.log(Instructor);
+
+const{Instructor:courseInstructor} = course
+console.log(courseInstructor);
+
+//JSON API
+
+// {
+//     "coursenmae ": "Java Script",
+//     "Price" : "free",
+// }
+
+[
+    {},
+    {},
+    {}
+]
