@@ -35,5 +35,5 @@ const myCoding = [
 ]
 
 myCoding.forEach((val)=>{
-    console.log(val.languageFileName);
+    console.log(val.languageName);
 })
