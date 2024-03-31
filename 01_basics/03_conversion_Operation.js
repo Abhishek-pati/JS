@@ -13,6 +13,7 @@ let s4 = 45
 let valueInstring = String(s4)
 console.log(valueInstring);
 
+
 /*
 "33"=>Number
 "12abc"=>NaN(not a number)
